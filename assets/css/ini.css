@@ -384,13 +384,7 @@ img{
     .footer-clean .item {
       text-align:center;
       padding-bottom:20px;
-    }   
-    .nav__link:hover{
-        color: #ff8e80;
-        text-decoration: none;
     }
-    
-
   }
   
   @media (max-width: 768px) {
