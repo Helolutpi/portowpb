@@ -384,13 +384,24 @@ img{
     .footer-clean .item {
       text-align:center;
       padding-bottom:20px;
+    }   
+    .nav__link:hover{
+        color: #ff8e80;
+        text-decoration: none;
     }
+    
+
   }
   
   @media (max-width: 768px) {
     .footer-clean .item.social {
       text-align:center;
     }
+    .nav__link:hover{
+        color: #ff8e80;
+        text-decoration: none;
+    }
+    
   }
   
   .footer-clean .item.social > a {
@@ -423,6 +434,7 @@ img{
     .footer-clean .item.social > a {
       margin-top:10px;
     }
+    
   }
   
   .footer-clean .copyright {
@@ -506,4 +518,24 @@ img{
 }
 
 /* JARAK SECTION*/
+
+.carousel-control-next-icon{
+    color: #ff8e80;
+    padding: 1rem;
+    
+}
+.carousel-control-prev-icon{
+    color: #ff8e80;
+    padding: 1rem;
+}
+.carousel-control-next-icon:hover{
+    color: #ff8e80;
+    padding: 1rem;
+    
+}
+.carousel-control-prev-icon:hover{
+    color: #ff8e80;
+    padding: 1rem;
+}
+
 
